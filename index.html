@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+  <html lang="">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Carroll High School Adventure</title>
+      <style> body {padding: 0; margin: 0;} </style>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.14.2/matter.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
+      <script src="p5.play.js"></script>
+
+      <script src="sketch.js"></script>
+
+       <!-- Firebase -->
+       <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+       <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+   
+       <script>
+          const firebaseConfig = {
+            apiKey: "AIzaSyA7gwViWVwuUBlmEE-sOr9K-Ee9nW3L0WY",
+            authDomain: "carroll-highschool-adventure.firebaseapp.com",
+            databaseURL: "https://carroll-highschool-adventure-default-rtdb.firebaseio.com",
+            projectId: "carroll-highschool-adventure",
+            storageBucket: "carroll-highschool-adventure.appspot.com",
+            messagingSenderId: "300797148024",
+            appId: "1:300797148024:web:72aea25cd2bfba478ce68d"
+          };
+          // Initialize Firebase
+         firebase.initializeApp(firebaseConfig);
+       </script>
+      <!--CSS FILES-->
+      <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+
+      <!--JS FILES-->
+      <script src = "js/form.js"></script>
+      <script src = "js/game.js"></script>
+      
+    </body>
+  </html>
